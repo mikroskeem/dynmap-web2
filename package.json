@@ -1,0 +1,32 @@
+{
+  "name": "dynmap-web2",
+  "version": "0.0.1",
+  "description": "An improved and modern Dynmap frontend",
+  "repository": "git@github.com:mikroskeem/dynmap-web2.git",
+  "author": "Mark Vainomaa <mikroskeem@mikroskeem.eu>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "craco start",
+    "build": "env NODE_ENV=production GENERATE_SOURCEMAP=false craco build",
+    "serve": "serve -s build"
+  },
+  "dependencies": {
+    "@craco/craco": "^3.5.0",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "clean-after-emit-webpack-plugin": "^0.0.3",
+    "craco-workbox": "^0.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "^2.1.5",
+    "typescript": "^3.3.3333",
+    "webpack-subresource-integrity": "^1.3.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
