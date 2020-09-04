@@ -17,7 +17,7 @@
     "clean-after-emit-webpack-plugin": "^0.0.3",
     "craco-workbox": "^0.1.0",
     "leaflet": "^1.4.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-leaflet": "^2.2.1",
